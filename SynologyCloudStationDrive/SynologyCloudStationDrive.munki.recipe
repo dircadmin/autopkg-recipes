@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest Synology Cloud Station Drive DMG and imports it into Munki.</string>
+    <string>Downloads the latest Synology Drive DMG and imports it into Munki.</string>
     <key>Identifier</key>
-    <string>com.github.jacobfgrant.munki.SynologyCloudStationDrive</string>
+    <string>com.github.dircadmin.munki.SynologyCloudStationDrive</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/synology</string>
         <key>NAME</key>
-        <string>SynologyCloudStationDrive</string>
+        <string>SynologyDrive</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
@@ -19,11 +19,11 @@
                 <string>testing</string>
             </array>
             <key>description</key>
-            <string>Cloud Station Drive is an application which sync files between your computers and Synology NAS via the Internet, so that your data and documents are always up-to-date and stay beside you. Even without an Internet connection, you can still view or edit your files within the specific folder offline, and all the changes will be automatically synced to your Synology NAS and other computers when the Internet connection is restored.</string>
+            <string>Synology Drive is an application which sync files between your computers and Synology NAS via the Internet, so that your data and documents are always up-to-date and stay beside you. Even without an Internet connection, you can still view or edit your files within the specific folder offline, and all the changes will be automatically synced to your Synology NAS and other computers when the Internet connection is restored.</string>
             <key>developer</key>
             <string>Synology</string>
             <key>display_name</key>
-            <string>Cloud Station Drive</string>
+            <string>Synology Drive</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
@@ -33,7 +33,7 @@
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.jacobfgrant.download.SynologyCloudStationDrive</string>
+    <string>com.github.dircadmin.download.SynologyDrive</string>
     <key>Process</key>
     <array>
         <dict>
