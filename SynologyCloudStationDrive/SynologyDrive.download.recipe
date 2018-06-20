@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Synology Drive DMG.</string>
     <key>Identifier</key>
-    <string>com.github.dircadmin.download.SynologyCloudStationDrive</string>
+    <string>com.github.dircadmin.download.SynologyDrive</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
